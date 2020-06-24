@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #182f25;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+input{
+    background-color: #4aa57e;
+    border:1px solid #182f25;
+    color: #9cfcd2;
+}
+
+::placeholder{
+    color: #9cfcd2;
+}
+
+.result{
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    color: #9cfcd2;
+}
+
+.wHeader{
+    margin: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wData{
+    color:#76e0b4;
+    margin: 0;
+}
+
+
+.controls{
+    width: 85%;
+    margin: 50px auto;
+    text-align: center;
+    color: #9cfcd2;
+}
+
+#map{
+    float: left;
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+    border: 1px solid #4aa57e;
+}
+
+#submitBtn{
+    margin: 15px 0 0 0;
+    background-color: #4aa57e;
+    border:1px solid #182f25;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #9cfcd2;
+}
+
+#submitBtn:hover{
+    background-color: #182f25;
+    border:1px solid #4aa57e;
+
+    transition: ease-in-out 0.3s;
+}

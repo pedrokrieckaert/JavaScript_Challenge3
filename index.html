@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src = "JS/main.js" type = "text/javascript" defer></script>
+    <title>Challenge 3 : Pedro Krieckaert</title>
+</head>
+<body>
+    <section class = "result">
+        <h1>Landing Area Data</h1>
+        <h2 id = "country">Please fill in the desired coordinates.</h2>
+        <img id = "map" src = "">
+        <h3>Weather Data</h3>
+        <p class = "wHeader">Weather:</p>
+        <p class = "wData" id = "weather">n/a</p>
+        <p class = "wHeader">Temperature:</p>
+        <p class = "wData" id = "temp">n/a</p>
+        <p class = "wHeader">Wind Speed:</p>
+        <p class = "wData" id = wSpeed>n/a</p>
+        <p class = "wHeader">Wind Degree:</p>
+        <p class = "wData" id = wDeg>n/a</p>
+        <p class = "wHeader">Humidity:</p>
+        <p class = "wData" id = "humidity">n/a</p>
+    </section>
+   
+    <section class = "controls">
+        <h3>Controls</h3>
+        <p>Latitude N/S</p>
+        <input type = "number" id = "inputLat" min = "-180" max = "180" placeholder="52.0705">
+        <p>Longitude E/W</p>
+        <input type = "number" id = "inputLon" min = "-180" max = "180" placeholder="4.3007">
+        <br><button id = "submitBtn">Submit</button>
+    </section>
+</body>
+</html>
